@@ -63,15 +63,15 @@ We are looking to build supervised machine learning models using time series ana
 | months_inventory | The length of inventory in a given month |
 
 
-## Steps to Reproduce (To Be Edited)
+## Steps to Reproduce 
 
- - You will need to have the Yahoo Finance library downloaded to get the historical data of BTC, DJI, and Gold
+ - You will need to go to https://www.recenter.tamu.edu/data/housing-activity/ and go to each specific market and download the data in a csv file
 
-- Clone my repo including the acquire.py, prepare.py, explore.py, and modeling.py 
+- Clone my repo including the wrangle.py, explore.py, and modeling.py 
 
-- Put the data in a file containing the cloned repo.
+- Put the data in a file containing the cloned repo
 
-- Run notebook.
+- Run notebook
 
 ## Conclusions (To Be Edited)
 
