@@ -69,9 +69,9 @@ We are looking to build supervised machine learning models using time series ana
 
 - Clone my repo including the wrangle.py, explore.py, and modeling.py 
 
-- Put the data in a file containing the cloned repo.
+- Put the data in a file containing the cloned repo
 
-- Run notebook.
+- Run notebook
 
 ## Conclusions (To Be Edited)
 
