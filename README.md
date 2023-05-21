@@ -25,18 +25,18 @@ We are looking to build supervised machine learning models using time series ana
  - Create README with project goals, project description, initial hypotheses, planning of project, data dictionary, and come up with recommedations/takeaways
 
 ### Acquire Data
- - Acquire data from Yahoo Finance Library and dowload the historical data from BTC, DJI, & Gold. Create a function to later import the data into a juptyer notebook. (acquire.py)
+ - Acquire data from Texas A&M: Texas Real Estate Research Center. Create a function to later import the data into a juptyer notebook. (wrangle.py)
 
 ### Prepare Data
- - Clean and prepare the data creating a function that will give me data that is ready to be explored upon. Within this step we will also write a function to split our data into train, validate, and test. (prepare.py) 
+ - Clean and prepare the data creating a function that will give me data that is ready to be explored upon. Within this step we will also write a function to split our data into train, validate, and test. (wrangle.py) 
  
 ### Explore Data
 - Create visuals on our data 
 
 - Create at least two hypotheses, set an alpha, run the statistical tests needed, reject or fail to reject the Null Hypothesis, document any findings and takeaways that are observed.
 
-### Model Data 
- - Create a baseline model of BTC (Moving Average model)
+### Model Data (To Be Edited)
+ - Create a baseline model of the average prices of the 4 markets *(Moving Average model)
  
  - Create, Fit, Predict on train subset on 3 time series models.
  
@@ -44,7 +44,7 @@ We are looking to build supervised machine learning models using time series ana
  
  - Evaluate which model performs the best and on that model use the test data subset.
  
-### Delivery  
+### Delivery (To Be Edited)
  - Create a Final Report Notebook to document conclusions, takeaways, and next steps in recommadations for predicitng BTC's Price. Also, inlcude visualizations to help explain why the model that was selected is the best to better help the viewer understand. 
 
 
@@ -53,22 +53,17 @@ We are looking to build supervised machine learning models using time series ana
 
 | Target Variable |     Definition     |
 | --------------- | ------------------ |
-|      btc_price    | price of Bitcoin |
-
+|      average_price    | average price of a certain market in a given month |
 | Feature  | Definition |
 | ------------- | ------------- |
-| open | Opening price of the asset |
-| high | The high price point of the asset  |
-| low | The low price point of the asset |
-| close | The closing price of the asset |
-| adj close | The closing price after adjustments  |
-| volume | The amount of an asset that changes hands | 
-| dji_price | The price of the Dow Jones Industrial Average |
-| gold | The price of gold per ounce|
+| sales | Number of sales in a given month |
+| dollar_volume | Amount of volume in dollars for a specific month  |
+| median_price | The median price of a home for the month |
+| total_listings | The total number of listings for the month |
+| months_inventory | The length of inventory in a given month |
 
 
-
-## Steps to Reproduce
+## Steps to Reproduce (To Be Edited)
 
  - You will need to have the Yahoo Finance library downloaded to get the historical data of BTC, DJI, and Gold
 
@@ -78,7 +73,7 @@ We are looking to build supervised machine learning models using time series ana
 
 - Run notebook.
 
-## Conclusions
+## Conclusions (To Be Edited)
 
 **Bitcoin price predictions were used by minimizing RMSE within our models. Both DJI and Gold prove to have mild to strong correlations with BTC's price.**
 
