@@ -45,7 +45,7 @@ We are looking to build supervised machine learning models using time series ana
  - Evaluate which model performs the best and on that model use the test data subset.
  
 ### Delivery (To Be Edited)
- - Create a Final Report Notebook to document conclusions, takeaways, and next steps in recommadations for predicitng BTC's Price. Also, inlcude visualizations to help explain why the model that was selected is the best to better help the viewer understand. 
+ - Create a Final Report Notebook to document conclusions, takeaways, and next steps in recommadations for predicitng Texas's Major market home prices. Also, inlcude visualizations to help explain why the model that was selected is the best to better help the viewer understand. 
 
 
 ## Data Dictionary
@@ -75,23 +75,9 @@ We are looking to build supervised machine learning models using time series ana
 
 ## Conclusions (To Be Edited)
 
-**Bitcoin price predictions were used by minimizing RMSE within our models. Both DJI and Gold prove to have mild to strong correlations with BTC's price.**
-
-
  
 **Best Model's performance:<br>**
-**- My best model reduced the root mean squared error by 3,974 dollars compared to the baseline results.**
-
-**- RMSE 9280.0 dollars on in-sample (train), RMSE 9280.0 dollars on out-of-sample data (validate) and RMSE of 27436.26 dollars on the test data.**
+*(TBD)
 
 ## Recommendations
-- I would recommend gathering more data from BTC's inception of trading.
-
-- I would also recommend collecting data or finding more correlations to BTC's price, as predicitng price on just BTC historical data is not optimal. This is a good base to better understand the historical price, but a multivariate time series model would have to be made to get better predictions.
-## Next Steps
-
-- Find more correlations to better predict BTC price (DXY to BTC price)
-
-- Consider adding different hyperparameters to models for better results
-    
-- Take this data and build multivariate models
+(TBD)
