@@ -54,6 +54,7 @@ We are looking to build supervised machine learning models using time series ana
 | Target Variable |     Definition     |
 | --------------- | ------------------ |
 |      average_price    | average price of a certain market in a given month |
+
 | Feature  | Definition |
 | ------------- | ------------- |
 | sales | Number of sales in a given month |
